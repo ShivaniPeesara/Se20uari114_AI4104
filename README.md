@@ -16,3 +16,4 @@ In a continuous loop, the script read temperature and humidity data from the DHT
 If valid data was obtained from the sensor, we formatted it and sent it to Firebase under a "Status" child node. We utilized the db.child("Status").push(data) method to push data to Firebase.
 
 The script printed the sensor data to the console and indicated that it was successfully sent to Firebase.
+
